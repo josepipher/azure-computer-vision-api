@@ -89,4 +89,4 @@ def main(vision_API_key, face_API_key):
         if result3[j]['faceAttributes']['hair']['hairColor'][k]['confidence'] >= confidence: print "%s has %s hair color" % (gender, result3[j]['faceAttributes']['hair']['hairColor'][k]['color'])
     
 if __name__ == "__main__":
-  main(sys.argv[1] sys.argv[2])
+  main(sys.argv[1], sys.argv[2])
