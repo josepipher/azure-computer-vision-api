@@ -7,11 +7,6 @@ This is inteded as a sample demonstration of using Azure Computer Vision API :
 
 You may obtain 2 separate trial keys from [here](https://azure.microsoft.com/en-us/try/cognitive-services/), one for each API.
 
-## Insert your API keys into the **key.txt** file
-vision = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-face = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
 ## Required libraries
 ```linux
 pip install -r requirements.txt
@@ -19,9 +14,13 @@ pip install -r requirements.txt
 
 ## Running the script
 ```linux
-python azure-computer-vision-api.py
+python azure-computer-vision-api.py <computer vision API key> <face API key>
 ```
-The script assumes the existence of a **key.txt** and a **pictureList.txt** files in the current directory.
+For example,
+```linux
+python azure-computer-vision-api.py abcxxxxxxxxxxxxxxxxxx efgxxxxxxxxxxxxxxxxxxx
+```
+The script assumes the existence of a **pictureList.txt** file in the current directory.
 
 ## Sample Input (generally available from the web)
 ![Input photo](http://www.herworldplus.com/sites/default/files/Amber%20Kuo%20and%20Hong%20Kong%20actor%20Nick%20Cheung.jpg)

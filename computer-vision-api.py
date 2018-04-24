@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import requests, urllib, base64
-import json, os.path
+import json, os.path, sys
 
 def read_file(filename):
   content = {}
@@ -32,12 +32,12 @@ def analyzeFace(faceheaders,body):
   r = requests.post("https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect", json=body, headers=faceheaders, params=params)
   return json.loads(r.text)
 
-if __name__ == "__main__":
-  API_key = read_file("key.txt")
+def main(vision_API_key, face_API_key):
+  # API_key = read_file("key.txt")
   picture_list = read_file("pictureList.txt")
   
-  vision_API_key = API_key['vision']
-  face_API_key = API_key['face']
+  # vision_API_key = API_key['vision']
+  # face_API_key = API_key['face']
 
   confidence = 0.95
 
@@ -87,4 +87,5 @@ if __name__ == "__main__":
       for k in range(len(result3[j]['faceAttributes']['hair']['hairColor'])):
         if result3[j]['faceAttributes']['hair']['hairColor'][k]['confidence'] >= confidence: print "%s has %s hair color" % (gender, result3[j]['faceAttributes']['hair']['hairColor'][k]['color'])
     
-    print "\n"
+if __name__ == "__main__":
+  main(sys.argv[1] sys.argv[2])
