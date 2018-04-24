@@ -1,0 +1,7 @@
+lady = {"url":"http://98palms.com/dev/wp-content/uploads/2016/03/girl-flirting.jpg"}
+taylorswift = {"url":"https://peopledotcom.files.wordpress.com/2017/12/gettyimages-459551246.jpg"}
+hkcouplecelebrity = {"url":"http://www.chinadaily.com.cn/culture/attachement/jpg/site1/20150819/b083fe955ec0173e970b01.jpg"}
+groupPhoto = {"url":"https://insideretail.hk/wp-content/uploads/2017/06/Bash-Hong-Kong-celebrities.jpg"}
+celebwglasses = {"url":"http://www.herworldplus.com/sites/default/files/Amber%20Kuo%20and%20Hong%20Kong%20actor%20Nick%20Cheung.jpg"}
+hkcouplecelebrity2 = {"url":"http://www.herworldplus.com/sites/default/files/Sean%20Lau%20and%20Amy%20Kwok.jpg"}
+
