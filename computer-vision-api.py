@@ -33,6 +33,7 @@ def analyzeFace(faceheaders,body):
   return json.loads(r.text)
 
 def main(vision_API_key, face_API_key):
+  print vision_API_key, face_API_key
   # API_key = read_file("key.txt")
   picture_list = read_file("pictureList.txt")
   
