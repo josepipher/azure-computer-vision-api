@@ -20,6 +20,9 @@ python azure-computer-vision-api.py
 ```
 The script assumes the existence of a **key.txt** and a **pictureList.txt** files in the current directory.
 
+## Sample Input (generally available from the web)
+[!Input photo](http://www.herworldplus.com/sites/default/files/Amber%20Kuo%20and%20Hong%20Kong%20actor%20Nick%20Cheung.jpg)
+
 ## Sample Results
 ```linux
 This is the 1st API
