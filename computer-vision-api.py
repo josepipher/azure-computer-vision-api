@@ -36,16 +36,19 @@ if __name__ == "__main__":
   API_key = read_file("key.txt")
   picture_list = read_file("pictureList.txt")
   
+  vision_API_key = API_key['vision']
+  face_API_key = API_key['face']
+
   confidence = 0.95
 
   visionheaders = {
     'Content-Type': 'application/json',
-    'Ocp-Apim-Subscription-Key': API_key['vision'],
+    'Ocp-Apim-Subscription-Key': vision_API_key,
   }
   
   faceheaders = {
     'Content-Type': 'application/json',
-    'Ocp-Apim-Subscription-Key': API_key['face'],
+    'Ocp-Apim-Subscription-Key': face_API_key,
   }
   
   photoSource = picture_list['celebwglasses']
