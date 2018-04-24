@@ -1,13 +1,16 @@
 language: python
 python:
-  - "2.6"
-  - "2.7"
-  - "3.3"
-  - "3.6"
+- '2.6'
+- '2.7'
+- '3.3'
+- '3.6'
 install:
-  - pip install -r requirements.txt
-  - pip install codecov
+- pip install -r requirements.txt
+- pip install codecov
 script:
-  - coverage run computer-vision-api.py
+- coverage run computer-vision-api.py
 after_success:
-  - codecov
+- codecov
+computer-vision-api:
+  py:
+    secure: XbNLVz0yoGNZ7MNpI3yj8psb0Z6odKb0Zn3i1DgZMtSB7oVEu/P3nqE3bHQvxkfOC8lx+2nK3sXAmub7R+WBotydwD/rr0ZfbNDehdJN7zOz5uu5Qvb2XnfmD6M8NeGyBTOKwczuKK714pLXCtiLeOAASP00ulXzEm0mtxv/cJ2Nv74QcctVk3Psn7PzKubsfTAGhxdHJqYXIoNKu56W7PfBEp8X4x2x7ALtjLziMEWtGcVYjeBlu+V9R1bF2ug6yNxPqESQvLBtldTR/HtyowumyPBlu1672afzrwoJDraPYn90XDw8FYU6wfietFFXhJTyV0+yQk2ZYp5km59i0ivaDO8Ycwu9BqfwUFZILjrTlTiRtmN6Di0UucOsEDhHGYONpwQoPnSNn3wEhYJZUdbD5RNYdXkSZldKeKMZs6IJLGa5M2bg9foDNTaFcd2S5J4rxHBvHef1SFomaWupsUn/7NQXJYtX0yrZuaHlHTBwXqlnMwqSFpjhlLWczaUP4ibhxX0CL50DWAHXdU2jWaRU9EjaTb6uVsIAVXcQi5fWGVBoTc1yQ8+kEpSzZGCJ4vmPrvOdiUVbL8IZshGmHZE/XdRpMxlFABl6Qh7VUqbedIn1n4eSHvwlJpJyPvUBNpG9RXxdYMtVQ0OOvJdWojiBjDknWvyq3Gwj+0XiJL0=
