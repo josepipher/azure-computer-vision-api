@@ -1,2 +1,0 @@
-vision_API_key=7da28deb987d4fc8ae08dcd39c8617bb
-face_API_key=93e23db43a1e49b791902808e12e1838
