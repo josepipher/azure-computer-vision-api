@@ -1,4 +1,6 @@
 # Microsoft Azure Computer Vision API
+[![Build Status](https://travis-ci.org/josepipher/azure-computer-vision-api.svg?branch=master)](https://travis-ci.org/josepipher/azure-computer-vision-api)
+
 This is inteded as a sample demonstration of using Azure Computer Vision API :
 - Computer Vision API (Distill actionable information from images)
 - Face API (Detect, identify, analyze, organize, and tag faces in photos)
@@ -7,6 +9,7 @@ You may obtain 2 separate trial keys from [here](https://azure.microsoft.com/en-
 
 ## Insert your API keys into the **key.txt** file
 vision = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
 face = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 ## Required libraries
