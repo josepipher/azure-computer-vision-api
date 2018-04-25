@@ -1,5 +1,7 @@
 # Microsoft Azure Computer Vision API
 [![Build Status](https://travis-ci.org/josepipher/azure-computer-vision-api.svg?branch=master)](https://travis-ci.org/josepipher/azure-computer-vision-api)
+[![codecov](https://codecov.io/gh/josepipher/azure-computer-vision-api/branch/master/graph/badge.svg)](https://codecov.io/gh/josepipher/azure-computer-vision-api)
+[![HitCount](http://hits.dwyl.io/sanjose/azure-computer-vision.svg)](http://hits.dwyl.io/sanjose/azure-computer-vision)
 
 This is inteded as a sample demonstration of using Azure Computer Vision API :
 - Computer Vision API (Distill actionable information from images)
